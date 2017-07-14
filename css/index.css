@@ -1,68 +1,21 @@
-#service {
-    padding: 110px 0;
-    background: #03A9F4;
-
-}
-
-#service h2 {
-    color: #fff;
-    
-    text-align: center;
-}
-
-/*.service_icon span {
-    background: transparent;
-    display: block;
+html, body {
     height: 100%;
-    width: 100%;
-    border-radius: 50%;
-}*/
-
-/*.service_icon i {
-    color: #FFFFFF;
-    font-size: 40px;
-    margin-top: 0;
-    position: relative;
-    top: 20px;
-    z-index: 20;
-    display: block;
-    text-align: center;
-}*/
-
-/*.service_block h3 {
-    font-family: 'Raleway', sans-serif;
-    font-weight: 600;
-    font-size: 24px;
-    color: #fff;
-    margin: 35px 0 15px;
-}*/
-
-/*#service h6 {
-    color: #fff;
-}*/
-
-/*.service_block p {
-    font-size: 14px;
-    color: #fff;
-    margin: 0 0 35px 0;
-}*/
-
-/*.service-wrapper {
-    background: #444 url("../img/fullbg.jpg");
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-    -webkit-background-size: cover;
-    background-size: cover;
-    background-position: center center;
-    overflow: hidden;
-}*/
-
-#service .skills {
-    height: auto;
-    width: auto;
+    margin: 0;
+    padding: 0;
 }
 
-#service ul {
+.learnEcharts {
+    background: #03A9F4;
+    overflow: hidden;
+}
+
+.learnEcharts h2 {
+    color: #fff;
+    font-size: 50px;
+    text-align: center;
+}
+
+.learnEcharts ul {
     display: inline-block;
     height: auto;
     width: 210px;
@@ -70,23 +23,46 @@
     border: 2px solid #FFFFFF;
     font-size: 20px;
     font-family: "Microsoft YaHei light";
-    text-align: center;
+    text-align: left;
+    text-indent: 20px;
     vertical-align: top;
 }
 
-#service li {
+.learnEcharts li {
     height: 36px;
     line-height: 36px;
     color: white;
+    list-style: none;
 }
 
-#service li:first-child {
+.learnEcharts li a {
+    height: 36px;
+    line-height: 36px;
+    display: block;
+    color: white;
+    text-decoration: none;
+}
+
+.learnEcharts li:first-child {
+    text-indent: 0;
+    text-align: center;
     background-color: #FFFFFF;
     color: #333;
 }
 
-#service li:hover {
+.learnEcharts li a:hover {
     background-color: #FFFFFF;
     color: #333;
-    cursor: default;
+    cursor: pointer;
 }
+
+.container {
+    overflow: hidden;
+}
+
+@media (min-width: 1200px) {
+    .container {
+        width: 970px
+    }
+}
+
